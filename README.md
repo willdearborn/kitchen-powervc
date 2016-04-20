@@ -398,9 +398,9 @@ example:
 
 ## <a name="authors"></a> Authors
 
-Created by [Jonathan Hartman][author] (<j@p4nt5.com>)
-and maintained by [JJ Asghar][maintainer] (<jj@chef.io>)
-PowerVC port by [Benoit Creau][author] (<benoit.creau@chmod666.org>)
+Created by Jonathan Hartman (<j@p4nt5.com>)
+and maintained by JJ Asghar (<jj@chef.io>)
+PowerVC port by Benoit Creau (<benoit.creau@chmod666.org>)
 
 ## <a name="license"></a> License
 
