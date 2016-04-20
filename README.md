@@ -1,13 +1,13 @@
 # <a name="title"></a> Kitchen::PowerVC: A Test Kitchen Driver for PowerVC
 
-A [Test Kitchen][kitchen_ci] Driver for [PowerVC].
+A test kitchen Driver for PowerVC.
 
-This driver uses the [fog gem][fog_web] to provision and destroy nova instances. Use a PowerVC cloud for your infrastructure testing!
+This driver uses the fog to provision and destroy nova instances. Use a PowerVC cloud for your infrastructure testing!
 
 Shamelessly copied from [Fletcher Nichol](https://github.com/fnichol)'s awesome work on an [EC2 driver](https://github.com/test-kitchen/kitchen-ec2), and [Adam Leff](https://github.com/adamleff)'s amazing work on an [VRO driver](https://github.com/chef-partners/kitchen-vro).
 
-Forked from Kitchen::Openstack created by [Jonathan Hartman][author] (<j@p4nt5.com>) and maintained by [JJ Asghar][maintainer] (<jj@chef.io>)
-Port for PowerVC support by [Benoit Creau][author] (<benoit.creau@chmod666.org>)
+Forked from Kitchen::Openstack created by Jonathan Hartman (<j@p4nt5.com>) and maintained by JJ Asghar (<jj@chef.io>)
+Port for PowerVC support by Benoit Creau (<benoit.creau@chmod666.org>)
 
 ## Requirements
 
@@ -291,7 +291,7 @@ it can be unavailable in your OpenStack installation.
 The ip that will be used by the instance, if not specified an ip will be automatically picked from the pool ip
 ```yaml
 fixed_ip: [ipv4_ipaddress]
-
+```
 
 ### disable\_ssl\_validation
 
@@ -404,23 +404,5 @@ PowerVC port by [Benoit Creau][author] (<benoit.creau@chmod666.org>)
 
 ## <a name="license"></a> License
 
-Apache 2.0 (see [LICENSE][license])
+Apache 2.0
 
-[gem]: https://rubygems.org/gems/kitchen-openstack
-[travis]: https://travis-ci.org/test-kitchen/kitchen-openstack
-[codeclimate]: https://codeclimate.com/github/test-kitchen/kitchen-openstack
-[coveralls]: https://coveralls.io/r/test-kitchen/kitchen-openstack
-[gemnasium]: https://gemnasium.com/test-kitchen/kitchen-openstack
-
-[author]:           https://github.com/RoboticCheese
-[maintainer]:       https://github.com/jjasghar
-[issues]:           https://github.com/test-kitchen/kitchen-openstack/issues
-[license]:          https://github.com/test-kitchen/kitchen-openstack/blob/master/LICENSE.txt
-[repo]:             https://github.com/test-kitchen/kitchen-openstack
-[driver_usage]:     https://github.com/test-kitchen/kitchen-openstack
-[chef_omnibus_dl]:  http://www.chef.io/chef/install/
-[chefdk_dl]:        https://downloads.chef.io/chef-dk
-[kitchen_ci]:       http://kitchen.ci
-
-[openstack_web]:    http://www.openstack.org
-[fog_web]:          http://fog.io
